@@ -428,5 +428,14 @@ body {
     );
 }
 
+.site-footer span {
+    transition: color 0.4s var(--ease);
+}
+
+.site-footer:hover span {
+    color:#9ca3af;
+}
+
+
 
 .spacer { height:120px; }
