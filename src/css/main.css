@@ -381,4 +381,40 @@ body {
     color: #c7c7c7;
 }
 
+/* Footer */
+.site-footer {
+    margin-top:120px;
+    padding:24px 0 40px;
+    text-align:center;
+    font-size:12px;
+    color:#6b7280;
+}
+
+.footer-inner {
+    display:flex;
+    justify-content:center;
+    gap:8px;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.footer-sep {
+    opacity:0.4;
+}
+
+.site-footer::before {
+    content:"";
+    display:block;
+    width:160px;
+    height:1px;
+    margin:0 auto 20px;
+    background:linear-gradient(
+            to right,
+            transparent,
+            rgba(200,155,60,0.35),
+            transparent
+    );
+}
+
+
 .spacer { height:120px; }
