@@ -519,6 +519,14 @@ Website launch, public access rollout, core feature deployment, and platform inf
 </p>
 </div>
 
+<div class="card" onclick="openModal(update05)">
+<span class="card-tag">Beta</span>
+<h3 class="text-white font-bold">Update 02.01</h3>
+<p class="text-gray-500 text-sm">
+Website Migration, System Optimization, and OAuth Integration Update
+</p>
+</div>
+
 </div>
 <div class="spacer"></div>
 </div>
@@ -880,6 +888,66 @@ const update04 = `
             <li>Optimized page structure for faster load times and smoother navigation</li>
             <li>Foundation deployed for future content, updates, and integrations</li>
         </ul>
+    </div>
+
+</div>
+`;
+
+const update05 = `
+<div class="space-y-8">
+
+    <div>
+        <span class="card-tag">STABLE</span>
+        <h2 class="text-3xl font-black text-white mt-2">
+            Update 01.03
+        </h2>
+        <p class="text-gray-500 text-sm mt-2">
+            Website Migration, System Optimization, and OAuth Framework Introduction
+        </p>
+    </div>
+
+    <div class="space-y-4">
+        <h3 class="text-white font-bold text-lg">Platform & Website</h3>
+        <ul class="space-y-2 text-gray-400 text-sm leading-relaxed list-disc list-inside">
+            <li>Official website migrated from a GitHub-hosted domain to a dedicated custom domain</li>
+            <li>All references, redirects, and internal links updated to reflect the new domain</li>
+            <li>Backend alignment completed to support future authentication and automation features</li>
+        </ul>
+    </div>
+
+    <div class="space-y-4">
+        <h3 class="text-white font-bold text-lg">Systems & Automations</h3>
+        <ul class="space-y-2 text-gray-400 text-sm leading-relaxed list-disc list-inside">
+            <li>Initial OAuth framework introduced as the foundation for account verification workflows</li>
+            <li>OAuth will likely launch with basic <strong>Verify</strong> and <strong>Update Roles</strong> actions</li>
+            <li>Full verification logic and group management commands are expected to arrive with the updated OAuth system</li>
+            <li>The OAuth system remains work-in-progress and is subject to functional and structural changes</li>
+            <li>Legacy bio verification variables fully removed from the backend</li>
+            <li>Internal variable cleanup performed to improve efficiency and maintainability</li>
+        </ul>
+    </div>
+
+    <div class="space-y-4">
+        <h3 class="text-white font-bold text-lg">Roles & Permissions</h3>
+        <ul class="space-y-2 text-gray-400 text-sm leading-relaxed list-disc list-inside">
+            <li>Deprecated role giver embeds have been fully removed</li>
+            <li>Role assignment logic migrated to channel- and role-based systems</li>
+            <li>Permissions simplified to reduce misuse and improve long-term scalability</li>
+        </ul>
+    </div>
+
+    <div class="space-y-4">
+        <h3 class="text-white font-bold text-lg">Visual & Emoji Updates</h3>
+        <ul class="space-y-2 text-gray-400 text-sm leading-relaxed list-disc list-inside">
+            <li>New emojis added to improve visual consistency and server identity</li>
+            <li>Internal systems updated to track and reflect emoji changes correctly</li>
+            <li>Unused or outdated emoji references removed from active systems</li>
+        </ul>
+    </div>
+
+    <div class="pt-4 text-gray-500 text-xs">
+        This is a condensed overview. For the full technical changelog and ongoing development notes,
+        visit <a href="https://btnl.synthova.xyz/" class="text-blue-400 hover:underline">btnl.synthova.xyz</a>.
     </div>
 
 </div>
