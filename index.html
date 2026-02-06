@@ -330,8 +330,15 @@ body {
     border: 1px solid var(--border);
     border-radius: 28px;
     padding: 42px;
+
     max-width: 760px;
     width: 90%;
+
+    /* KEY FIX — does NOT affect cards */
+    max-height: 80vh;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+
     display: flex;
     flex-direction: column;
     gap: 20px;
